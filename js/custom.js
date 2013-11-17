@@ -6,7 +6,7 @@ $(function() {
 function getData() {
     $.ajax({
         type: "GET",
-        url: "https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://www.acme.com/jef/apod/rss.xml&num=2",
+        url: "https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://www.acme.com/jef/apod/rss.xml&num=1",
         dataType: "jsonp",
         success: function (data) {
             $('#header').html(data.responseData.feed.entries[0].title);
@@ -16,11 +16,8 @@ function getData() {
 }
 
 function getPic(data) {
-    alert(data);
-    var regex   = /<img src=\"([a-zA-Z0-9\_\.\/\:]*)\"/;
+    var regex   = /img src=\"([a-zA-Z0-9\_\.\/\:]*)\"/;
     var match = data.match(regex);
-    alert(match);
-    var src = match[1];
+    var src = match ? match[1] : '';
     $('#img').html('<img src="'+src+'"/>');
-
 }
