@@ -4,8 +4,7 @@
 error_reporting(E_ERROR | E_PARSE);
 
 // Set headers
-$date = new date();
-$md5 = md5($date);
+$md5 = md5('This');
 header("ETag: ".$md5);
 header("Content-Type: text/html; charset=utf-8");
 
