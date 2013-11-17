@@ -2,11 +2,12 @@
     include '_config.php';
 ?>
 
-
 <!DOCTYPE html>
 <html>
 <head>
     <title><?php echo $app['name'] ?></title>
+    <script src="js/jquery.js" type="text/javascript"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
 </head>
 <body>
 <div>
