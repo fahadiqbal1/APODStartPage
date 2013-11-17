@@ -33,7 +33,7 @@ if ($rss === false) {
     @$doc->loadHTML("<html><body>".$html."</body></html>");
 
     // Get first image
-    $img = $doc->getElementsByTagName('img')->item(1);
+    $img = $doc->getElementsByTagName('img')->item(0);
 
     if ($img == NULL) {
         $error = "Error retrieving image, please try again later";
