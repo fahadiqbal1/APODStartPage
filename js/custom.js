@@ -6,11 +6,11 @@ $(function() {
 function getData() {
     $.ajax({
         type: "GET",
-        url: "https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://www.acme.com/jef/apod/rss.xml&num=1",
+        url: "https://ajax.googleapis.com/ajax/services/feed/load?v=1.0&q=http://www.acme.com/jef/apod/rss.xml&num=2",
         dataType: "jsonp",
         success: function (data) {
-            $('#header').html(data.responseData.feed.entries[0].title);
-            getPic(data.responseData.feed.entries[0].content);
+            $('#header').html(data.responseData.feed.entries[1].title);
+            getPic(data.responseData.feed.entries[1].content);
         }
     });
 }
