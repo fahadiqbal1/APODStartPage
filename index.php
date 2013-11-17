@@ -9,9 +9,7 @@
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
     <style type="text/css">
-        #apodImg { position: fixed; top: 0; left: 0; }
-        .bgwidth { width: 100%; }
-        .bgheight { height: 100%; }
+
     </style>
 </head>
 <body>
