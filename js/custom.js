@@ -20,5 +20,5 @@ function getPic(data) {
     var match = data.match(regex);
     var src = match ? match[1] : '';
     $('#img').html('<img id="apodImg" src="'+src+'"/>');
-    $('body').css('background-image', 'url(' + src + ') no-repeat center center fixed;');
+    $('body').css('background-image', 'url(' + src + ') no-repeat center center fixed');
 }
