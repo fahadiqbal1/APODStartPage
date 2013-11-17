@@ -18,7 +18,6 @@ function getData() {
 function getPic(data) {
     var regex   = /img src=\"([a-zA-Z0-9\_\.\/\:]*)\"/;
     var match = data.match(regex);
-    var img = match ? match[1] : '';
-    var src = img.replace('_960','');
+    var src = match ? match[1] : '';
     $('#img').html('<img src="'+src+'"/>');
 }
