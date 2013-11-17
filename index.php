@@ -11,7 +11,8 @@
 </head>
 <body>
 <div>
-    <h1>Welcome</h1>
+    <h1 id="header">Welcome</h1>
+    <div id="img"></div>
     <p>
         <small>
             <?php echo $app['version'] ?>
