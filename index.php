@@ -10,11 +10,10 @@
     <script src="js/custom.js" type="text/javascript"></script>
     <style type="text/css">
         html{
-            /* Ensure the html element always takes up the full height of the browser window */
-            min-height:100%;
-
-            /* The Magic */
-            background-size:cover;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
         }
 
         body{
