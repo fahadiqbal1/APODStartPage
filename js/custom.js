@@ -19,5 +19,28 @@ function getPic(data) {
     var regex   = /img src=\"([a-zA-Z0-9\_\.\/\:]*)\"/;
     var match = data.match(regex);
     var src = match ? match[1] : '';
-    $('#bg').html('<img id="apodImg" src="'+src+'"/>');
+    $('#img').html('<img id="apodImg" src="'+src+'"/>');
+    placePic();
+}
+
+function placePic() {
+    var theWindow        = $(window),
+        $bg              = $("#bg"),
+        aspectRatio      = $bg.width() / $bg.height();
+
+    function resizeBg() {
+
+        if ( (theWindow.width() / theWindow.height()) < aspectRatio ) {
+            $bg
+                .removeClass()
+                .addClass('bgheight');
+        } else {
+            $bg
+                .removeClass()
+                .addClass('bgwidth');
+        }
+
+    }
+
+    theWindow.resize(resizeBg).trigger("resize");
 }
