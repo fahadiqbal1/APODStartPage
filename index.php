@@ -14,9 +14,6 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-        }
-
-        body{
             /* Workaround for some mobile browsers */
             min-height:100%;
         }
