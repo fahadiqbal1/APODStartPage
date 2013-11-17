@@ -10,7 +10,14 @@ function getData() {
         dataType: "jsonp",
         success: function (data) {
             alert(data.responseData.feed.entries[0].title);
-            alert(data.responseData.feed.entries[0].content);
+            getPic(data.responseData.feed.entries[0].content);
         }
     });
+}
+
+function getPic(data) {
+    var regex   = "/img src=\"([a-zA-Z0-9\_\.\/\:]*)\"/";
+    match = data.match(regex);
+    alert(match);
+
 }
