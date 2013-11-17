@@ -10,6 +10,7 @@ function getData() {
         dataType: "jsonp",
         success: function (data) {
             alert(data.responseData.feed.entries[0].title);
+            alert(data.responseData.feed.entries[0].content);
         }
     });
 }
