@@ -19,6 +19,6 @@ function getPic(data) {
     var regex   = /img src=\"([a-zA-Z0-9\_\.\/\:]*)\"/;
     var match = data.match(regex);
     var src = match ? match[1] : '';
-    $('#img').html('<img id="apodImg" src="'+src+'"/>');
-    $('html').css('background-image', 'url(' + src + ')');
+    $('#img').html('<img id="apodImg" src="'+src+'" style="min-height: 100%; min-width: 1024px;"/>');
+    //$('html').css('background-image', 'url(' + src + ') no-repeat center center fixed');
 }

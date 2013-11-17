@@ -9,14 +9,6 @@
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
     <style type="text/css">
-        html{
-            background-image:  no-repeat center center fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-        }
-
         body{
             /* Workaround for some mobile browsers */
             min-height:100%;
