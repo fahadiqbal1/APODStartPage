@@ -12,7 +12,11 @@
 <div>
     <h1>Welcome</h1>
     <p>
-        <small><?php echo $app['version'] ?></small>
+        <small>
+            <?php echo $app['version'] ?>
+            <br>
+            <?php echo $app['baseURL'] ?>
+        </small>
     </p>
 </div>
 </body>
