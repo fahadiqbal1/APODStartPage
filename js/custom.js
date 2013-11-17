@@ -18,6 +18,8 @@ function getData() {
 function getPic(data) {
     var regex   = /img src=\"([a-zA-Z0-9\_\.\/\:]*)\"/;
     var match = data.match(regex);
-    alert(match);
+    var regex2 = /([a-zA-Z0-9\_\.\/\:]*)\"/;
+    var match2 = match.match(regex2);
+    alert(match2);
 
 }
