@@ -10,6 +10,7 @@
     <script src="js/custom.js" type="text/javascript"></script>
     <style type="text/css">
         html{
+            background-image:  no-repeat center center fixed;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
