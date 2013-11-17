@@ -11,7 +11,9 @@
 <body>
 <div>
     <h1>Welcome</h1>
-    <p>This is merely a test</p>
+    <p>
+        <small><?php echo $app['version'] ?></small>
+    </p>
 </div>
 </body>
 </html>
