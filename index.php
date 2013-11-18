@@ -17,7 +17,7 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            min-height:100%;
+            min-height:inherit;
         }
 
         body{
