@@ -9,20 +9,17 @@
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/custom.js" type="text/javascript"></script>
     <style type="text/css">
-        body{
+        html{
             background-image: url("http://apod.nasa.gov/apod/image/1311/auroraiceland_vetter_960.jpg");
             background-repeat: no-repeat;
             background-position: center center;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
+            background-size: 100% 100%;
+            min-height:100%;
         }
 
         body{
             /* Workaround for some mobile browsers */
             min-height:100%;
-            max-height: 100%;
         }
     </style>
 </head>
