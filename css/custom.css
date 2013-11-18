@@ -12,20 +12,21 @@ body{
 }
 
 #container {
-    width: inherit;
-    height: inherit;
-    background: rgb(65, 119, 31); /* Fall-back for browsers that don't support rgba */
-    background: rgba(65, 119, 31, .5);
-}
-
-#searchbox {
-    width: 300px;
-    height: 150px;
-    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGAwZiAWYFcJABFmAGeceo4VAAAAAElFTkSuQmCC") repeat;
+    width: 10px;
+    height: 10px;
+    min-width: 45%;
+    min-height: 25%;
     position: absolute;
     top:0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
+    background: rgb(65, 119, 31); /* Fall-back for browsers that don't support rgba */
+    background: rgba(65, 119, 31, .3);
+    z-index: -1;
+}
+
+#searchbox {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGAwZiAWYFcJABFmAGeceo4VAAAAAElFTkSuQmCC") repeat;
 }
