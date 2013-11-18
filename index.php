@@ -11,9 +11,11 @@
         <link rel="stylesheet" type="text/css" href="css/custom.css" media="all" >
     </head>
     <body>
-        <div id="container">
-            <h3 id="header"></h3>
-            <div id="searchbox">
+        <div id="container" class="round shadow">
+            <div id="header">
+                <h3 id="headertext"></h3>
+            </div>
+            <div id="searchbox" >
                 <label id="search" for="searchInput">
                     <input type="text" id="searchInput">
                 </label>
