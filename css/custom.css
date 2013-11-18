@@ -12,6 +12,8 @@ body{
 }
 
 #container {
+    width: auto;
+    height: auto;
     background: rgb(65, 119, 31); /* Fall-back for browsers that don't support rgba */
     background: rgba(65, 119, 31, .5);
 }
