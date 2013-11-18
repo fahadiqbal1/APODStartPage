@@ -12,11 +12,12 @@
         body{
             background-image: url("http://apod.nasa.gov/apod/image/1311/auroraiceland_vetter_960.jpg");
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: center center;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
+            min-height:100%;
         }
 
         body{
