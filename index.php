@@ -10,12 +10,12 @@
     <script src="js/custom.js" type="text/javascript"></script>
     <style type="text/css">
         html{
-            background: url("http://apod.nasa.gov/apod/image/1311/auroraiceland_vetter_960.jpg");
+            background-image: url("http://apod.nasa.gov/apod/image/1311/auroraiceland_vetter_960.jpg");
+            background-repeat: no-repeat;
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
-            //background-size: cover;
-            background-size: contain;
+            background-size: cover;
         }
 
         body{
