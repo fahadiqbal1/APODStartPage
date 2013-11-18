@@ -19,7 +19,7 @@
 
         body{
             /* Workaround for some mobile browsers */
-            min-height:100%;
+            min-height:75%;
         }
     </style>
 </head>
