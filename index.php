@@ -22,7 +22,7 @@
         body{
             /* Workaround for some mobile browsers */
             min-height:75%;
-            max-height: 75%;
+            max-height: 85%;
         }
     </style>
 </head>
