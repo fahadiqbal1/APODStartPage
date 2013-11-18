@@ -4,36 +4,22 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-    <title><?php echo $app['name'] ?></title>
-    <script src="js/jquery.js" type="text/javascript"></script>
-    <script src="js/custom.js" type="text/javascript"></script>
-    <style type="text/css">
-        html{
-            background-image: url("http://apod.nasa.gov/apod/image/1311/auroraiceland_vetter_960.jpg");
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: 100% 100%;
-            min-height:100%;
-        }
-
-        body{
-            /* Workaround for some mobile browsers */
-            min-height:100%;
-        }
-    </style>
-</head>
-<body>
-<div>
-    <h1 id="header">Welcome</h1>
-    <div id="img"></div>
-    <p>
-        <small>
-            <?php echo $app['version'] ?>
-            <br>
-            <?php echo $app['baseURL'] ?>
-        </small>
-    </p>
-</div>
-</body>
+    <head>
+        <title><?php echo $app['name'] ?></title>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="css/custom.css" media="all" >
+    </head>
+    <body>
+        <div id="container">
+            <div id="searchbox"></div>
+        </div>
+        <div id="footer">
+            <small>
+                <?php echo $app['version'] ?>
+                <br>
+                <?php echo $app['baseURL'] ?>
+            </small>
+        </div>
+    </body>
 </html>
