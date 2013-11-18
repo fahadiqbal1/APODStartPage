@@ -12,7 +12,9 @@
     </head>
     <body>
         <div id="container">
-            <div id="searchbox"></div>
+            <div id="searchbox">
+                <h3 id="header"></h3>
+            </div>
         </div>
         <div id="footer">
             <small>
