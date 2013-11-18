@@ -15,7 +15,7 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             //background-size: cover;
-            background-size: 50% 25%;
+            background-size: contain;
         }
 
         body{
