@@ -11,11 +11,14 @@ body{
     min-height:100%;
 }
 
+#container {
+    background: rgb(65, 119, 31); /* Fall-back for browsers that don't support rgba */
+    background: rgba(65, 119, 31, .5);
+}
+
 #searchbox {
     width: 100px;
     height: 100px;
-    /** background: rgb(65, 119, 31); /* Fall-back for browsers that don't support rgba
-    background: rgba(65, 119, 31, .5); **/
     background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAEklEQVQImWNgYGAwZiAWYFcJABFmAGeceo4VAAAAAElFTkSuQmCC") repeat;
     position: absolute;
     top:0;
