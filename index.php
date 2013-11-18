@@ -14,7 +14,6 @@
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            max-height: 100%;
         }
 
         body{
