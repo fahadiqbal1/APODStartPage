@@ -13,22 +13,20 @@
         <script src="js/custom.js" type="text/javascript"></script>
     </head>
     <body>
-        <div id="container" class="round shadow">
-            <div id="header">
-                <h3 id="headertext"></h3>
-            </div>
-            <div id="searchbox" >
-                <label id="search" for="searchInput">
-                    <input type="text" id="searchInput">
-                </label>
-            </div>
-        </div>
-        <div id="footer">
-            <small>
-                <?php echo $app['version'] ?>
-                <br>
-                <?php echo $app['baseURL'] ?>
-            </small>
+        <div id="fullscreen_bg" class="fullscreen_bg"/>
+        <a id="simple-menu" href="#sidr" type="button" class="btn btn-default">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </a>
+        <div id="sidr">
+            <h1 class="appName"></h1>
+            <p>
+                <a id="headertext" class="btn btn-xs btn-link" href="#" data-toggle="tooltip" data-placement="bottom" title="first tooltip">Hover over me</a>
+                <input type="text" placeholder="Search Google">
+                <a id="close-menu" href="#sidr" class="btn btn-info btn-xs btn-block">Close Menu</a>
+            </p>
         </div>
     </body>
 </html>
