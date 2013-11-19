@@ -1,0 +1,12 @@
+{
+    "0" : {
+        "name" : "Google",
+        "link" : "https://encrypted.google.com/",
+        "icon" : "fa fa-google-plus"
+    },
+    "1" : {
+        "name" : "Facebook",
+        "link" : "http://www.facebook.com/",
+        "icon" : "fa fa-facebook"
+    }
+}
