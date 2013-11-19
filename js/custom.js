@@ -1,6 +1,6 @@
 $(function() {
     console.log( "ready!" );
-    getData();
+    getData(); getConfig();
 
     $("[data-toggle='tooltip']").tooltip();
     $('#simple-menu').sidr({
@@ -29,4 +29,10 @@ function getPic(data) {
     var match = data.match(regex);
     var src = match ? match[1] : '';
     $('.fullscreen_bg').css('background-image', 'url(' + src + ')').css('background-image','no-repeat').css('background-image','center').css('background-image','center').css('background-image','fixed');
+}
+
+function getConfig() {
+    $.getJSON( "_config.json", function( data ) {
+        $('.appName').html(data.name);
+    });
 }
