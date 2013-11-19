@@ -6,9 +6,11 @@
 <html>
     <head>
         <title><?php echo $app['name'] ?></title>
-        <script src="js/jquery.js" type="text/javascript"></script>
-        <script src="js/custom.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="css/custom.css" media="all" >
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="js/custom.js" type="text/javascript"></script>
     </head>
     <body>
         <div id="container" class="round shadow">
