@@ -5,12 +5,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title><?php echo $app['name'] ?></title>
+        <title class="appName"></title>
         <link rel="stylesheet" type="text/css" href="css/custom.css" media="all" >
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">
+        <link rel="stylesheet" type="text/css" href="css/jquery.sidr.dark.css" media="all">
         <script src="js/jquery.js" type="text/javascript"></script>
         <script src="js/bootstrap.js" type="text/javascript"></script>
         <script src="js/custom.js" type="text/javascript"></script>
+        <script src="js/jquery.sidr.min.js" type="text/javascript"></script>
     </head>
     <body>
         <div id="fullscreen_bg" class="fullscreen_bg"/>
