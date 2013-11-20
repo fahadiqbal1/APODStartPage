@@ -47,10 +47,13 @@ function getPic(data) {
     $('.fullscreen_bg').css('background-image', 'url(' + src + ')').css('background-image','no-repeat').css('background-image','center').css('background-image','center').css('background-image','fixed');
 }
 
+var startWidget = '';
 function getConfig() {
     $.getJSON( "_config.json", function( data ) {
         $('.appName').html(data.name);
         $('#about').html(data.about);
+        startWidget = data.startWidget;
+        showWidget(startWidget);
     });
 }
 
@@ -65,16 +68,17 @@ function getLinks() {
 
 function loadWidgets() {
     clockWidget();
-    showWidget('clock');
 }
 
 function showWidget(widget){
     if(widget != null){
         $('.widget').hide();
         $('#'+widget+'Widget').show();
+        if(widget == "search"){
+            $('#searchQuery').focus();
+        }
     } else {
         $('#widgetWindow').toggle();
-
     }
 }
 

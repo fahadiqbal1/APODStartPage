@@ -2,6 +2,7 @@
 <html>
     <head>
         <title class="appName"></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="stylesheet" type="text/css" href="css/custom.css" media="all" >
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="all">
         <link rel="stylesheet" type="text/css" href="css/jquery.sidr.dark.css" media="all">
@@ -15,8 +16,9 @@
     <body>
         <!--<div id="fullscreen_bg" class="fullscreen_bg"/>-->
         <a id="simple-menu" href="#sidr" type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="right" title="Pull Out Menu">
-            <span class="sr-only">Toggle navigation</span>
-            <i class="fa fa-bars fa-lg"></i>
+            <span class="hidden-md hidden-lg">Swipe to toggle navigation</span>
+            <span class="visible-md visible-lg"><i class="fa fa-bars fa-lg"></i></span>
+
         </a>
         <div id="sidr">
             <div id="sideMain">
