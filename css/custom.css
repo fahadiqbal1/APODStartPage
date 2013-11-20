@@ -33,22 +33,32 @@ body {
 }
 
 .round {
-    border-radius: 0px 5px 5px 5px;
-    -moz-border-radius: 0px 5px 5px 5px;
-    -webkit-border-radius: 0px 5px 5px 5px;
-}
-
-.bg-info-widget {
-    margin-top: 30px;
+    border-radius: 0 5px 5px 5px;
+    -moz-border-radius: 0 5px 5px 5px;
+    -webkit-border-radius: 0 5px 5px 5px;
 }
 
 #simple-menu {
     margin: 5px;
 }
 
+#sideMain {
+    padding: 10px 2px 80px 5px;
+}
+
+#sideFooter {
+    position:absolute;
+    padding-left: 5px;
+    padding-right: 2px;
+    bottom:0;
+    width:100%;
+    height:80px;
+}
+
 #headertext {
     color: inherit;
     text-decoration: none !important;
+    font-weight: bold;
 }
 
 #widgetWindow {
@@ -56,7 +66,7 @@ body {
     background-color: rgb(100 ,100,100);
     opacity: 0.7;
     filter:alpha(opacity=60);
-    border: 0.5px solid rgb(150,150,150);
+    border: 1px solid rgb(150,150,150);
 
     position: absolute;
     top:0;
@@ -75,9 +85,9 @@ body {
     right: 0;
     margin: 15px;
     background-color: #ffffff;
-    -webkit-box-shadow: 6px 8px 41px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 8px 41px 0px rgba(0,0,0,0.75);
-    box-shadow: 6px 8px 41px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 8px 41px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 8px 41px 0 rgba(0,0,0,0.75);
+    box-shadow: 6px 8px 41px 0 rgba(0,0,0,0.75);
 }
 
 #clock {
@@ -94,9 +104,9 @@ body {
     right: 0;
     margin: 15px;
     background-color: #ffffff;
-    -webkit-box-shadow: 6px 8px 41px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 8px 41px 0px rgba(0,0,0,0.75);
-    box-shadow: 6px 8px 41px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 8px 41px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 8px 41px 0 rgba(0,0,0,0.75);
+    box-shadow: 6px 8px 41px 0 rgba(0,0,0,0.75);
 }
 
 #searchImg {
@@ -112,9 +122,9 @@ body {
     right: 0;
     margin: 15px;
     background-color: #ffffff;
-    -webkit-box-shadow: 6px 8px 41px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 6px 8px 41px 0px rgba(0,0,0,0.75);
-    box-shadow: 6px 8px 41px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 6px 8px 41px 0 rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 8px 41px 0 rgba(0,0,0,0.75);
+    box-shadow: 6px 8px 41px 0 rgba(0,0,0,0.75);
 }
 
 #aboutWidget p {

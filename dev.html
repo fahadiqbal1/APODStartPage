@@ -19,28 +19,39 @@
             <i class="fa fa-bars fa-lg"></i>
         </a>
         <div id="sidr">
-            <h1 class="appName"></h1>
-            <ul id="sideBarLinks"></ul>
-            <p>
-                <h1><a id="headertext" class="btn btn-xs btn-link"></a></h1>
-                <br>
-                <div class="btn-group btn-group-xs btn-group-justified">
-                    <a type="button" class="btn btn-default" onclick="showWidget('clock')">
-                        <i class="fa fa-clock-o" data-toggle="tooltip" data-placement="top" title="Clock Widget"></i>
-                    </a>
-                    <a type="button" class="btn btn-default" onclick="showWidget('search')">
-                        <i class="fa fa-search" data-toggle="tooltip" data-placement="top" title="Search Widget"></i>
-                    </a>
-                    <a type="button" class="btn btn-default" onclick="showWidget('about')">
-                        <i class="fa fa-question" data-toggle="tooltip" data-placement="top" title="About this page"></i>
-                    </a>
-                    <a type="button" class="btn btn-default" onclick="showWidget()">
-                        <i class="fa fa-eye-slash" data-toggle="tooltip" data-placement="top" title="Toggle"></i>
-                    </a>
+            <div id="sideMain">
+                <h1 class="appName"></h1>
+                <p id="bgImageName">
+                    Background Image: <br>
+                    <a id="headertext" class="btn btn-xs btn-link"></a>
+                </p>
+                <ul id="sideBarLinks"></ul>
+                <div id="sideBarControls">
+                    <div class="btn-group btn-group-xs btn-group-justified">
+                        <a type="button" class="btn btn-default" onclick="showWidget('clock')">
+                            <i class="fa fa-clock-o" data-toggle="tooltip" data-placement="top" title="Clock Widget"></i>
+                        </a>
+                        <a type="button" class="btn btn-default" onclick="showWidget('search')">
+                            <i class="fa fa-search" data-toggle="tooltip" data-placement="top" title="Search Widget"></i>
+                        </a>
+                        <a type="button" class="btn btn-default" onclick="showWidget('about')">
+                            <i class="fa fa-question" data-toggle="tooltip" data-placement="top" title="About this page"></i>
+                        </a>
+                        <a type="button" class="btn btn-default" onclick="showWidget()">
+                            <i class="fa fa-eye-slash" data-toggle="tooltip" data-placement="top" title="Toggle"></i>
+                        </a>
+                    </div>
                 </div>
-                <br>
+            </div>
+            <div id="sideFooter">
                 <a id="close-menu" href="#sidr" class="btn btn-info btn-xs btn-block"><i class="fa fa-sign-out fa-flip-horizontal"></i> Close Menu</a>
-            </p>
+                <p id="copyright" class="text-muted">
+                    <small>
+                        Image &#169; NASA <br>
+                        Website &#169; 2013 Fahad Iqbal. All rights reserved.
+                    </small>
+                </p>
+            </div>
         </div>
 
 

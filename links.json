@@ -8,5 +8,20 @@
         "name" : "Facebook",
         "link" : "http://www.facebook.com/",
         "icon" : "fa fa-facebook"
+    },
+    "2" : {
+        "name" : "Twitter",
+        "link" : "http://www.twitter.com/",
+        "icon" : "fa fa-twitter"
+    },
+    "3" : {
+        "name" : "Tumblr",
+        "link" : "http://www.tumblr.com/",
+        "icon" : "fa fa-tumblr"
+    },
+    "4" : {
+        "name" : "Pinterest",
+        "link" : "http://www.pinterest.com/",
+        "icon" : "fa fa-pinterest"
     }
 }
