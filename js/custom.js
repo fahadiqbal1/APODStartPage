@@ -12,7 +12,6 @@ $(function() {
     });
 
     var start = new Date;
-
     setInterval(function() {
         $('.Timer').text((new Date - start) / 1000 + " Seconds");
     }, 1000);
@@ -42,13 +41,14 @@ function getPic(data) {
 function getConfig() {
     $.getJSON( "_config.json", function( data ) {
         $('.appName').html(data.name);
+        $('#about').html(data.about);
     });
 }
 
 function getLinks() {
     $.getJSON( "links.json", function( data ) {
         $.each(data, function() {
-            console.log('Name: ' + this.name);
+            //console.log('Name: ' + this.name);
             $('#sideBarLinks').append('<li><a href="'+this.link+'"> <i class="'+this.icon+' fa-border"></i> '+this.name+'</a></li>')
         });
     });
@@ -56,6 +56,17 @@ function getLinks() {
 
 function loadWidgets() {
     clockWidget();
+    showWidget('clock');
+}
+
+function showWidget(widget){
+    if(widget != null){
+        $('.widget').hide();
+        $('#'+widget+'Widget').show();
+    } else {
+        $('#widgetWindow').toggle();
+
+    }
 }
 
 function clockWidget() {
@@ -67,7 +78,7 @@ function clockWidget() {
     m=checkTime(m);
     s=checkTime(s);
     $('#clock').text(h+":"+m+":"+s);
-    console.log(h+":"+m+":"+s);
+    //console.log(h+":"+m+":"+s);
     var t;
     t = setTimeout(function () {
         clockWidget()
@@ -81,3 +92,7 @@ function clockWidget() {
     }
 }
 
+function searchGoogle() {
+    var query = $('#searchQuery').val();
+    document.location.href="https://www.google.com/search?q="+query;
+}
