@@ -17,6 +17,18 @@ $(function() {
     }, 1000);
 });
 
+$(window).touchwipe({
+    wipeLeft: function() {
+// Close
+        $.sidr('close', 'sidr');
+    },
+    wipeRight: function() {
+// Open
+        $.sidr('open', 'sidr');
+    },
+    preventDefaultEvents: false
+});
+
 
 function getData() {
     $.ajax({
