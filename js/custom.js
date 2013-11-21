@@ -51,7 +51,6 @@ var startWidget = '';
 function getConfig() {
     $.getJSON( "_config.json", function( data ) {
         $('.appName').html(data.name);
-        $('#about').html(data.about);
         startWidget = data.startWidget;
         showWidget(startWidget);
     });
