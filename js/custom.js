@@ -84,6 +84,11 @@ function showWidget(widget){
 function clockWidget() {
     var today=new Date();
     var h=today.getHours();
+    if(h > 12){
+        h -=12;
+    } else if (h === 0){
+        h = 12
+    }
     var m=today.getMinutes();
     var s=today.getSeconds();
 // add a zero in front of numbers<10
