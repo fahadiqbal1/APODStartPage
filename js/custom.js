@@ -137,8 +137,13 @@ $(function () {
     });
 
     $contextMenu.on("click", "a", function () {
-        var item = $(this).attr('data-contextmenu');
-        showWidget(item);
+        var type = $(this).attr('CM-type');
+        var item = $(this).attr('CM-data');
+        if (type == 'toggle'){
+            showWidget();
+        } else {
+            showWidget(item);
+        }
         $contextMenu.hide();
     });
 
