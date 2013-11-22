@@ -112,3 +112,30 @@ function searchGoogle() {
     var query = $('#searchQuery').val();
     document.location.href="https://www.google.com/search?q="+query;
 }
+
+/* --------------------- Context Menu --------------------- */
+
+$(function () {
+
+    var $contextMenu = $("#contextMenu");
+
+    $("body").on("contextmenu", "#widgetWindow", function (e) {
+        $contextMenu.css({
+            display: "block",
+            left: e.pageX,
+            top: e.pageY
+        });
+        return false;
+    });
+
+    $contextMenu.on("click", "a", function () {
+        var item = $(this).attr('data-contextmenu');
+        showWidget(item);
+        $contextMenu.hide();
+    });
+
+    $(document).click(function () {
+        $contextMenu.hide();
+    });
+
+});

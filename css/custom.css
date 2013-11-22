@@ -130,3 +130,8 @@ body {
 #aboutWidget p {
     margin: 10px;
 }
+
+#contextMenu {
+    position: absolute;
+    display:none;
+}
