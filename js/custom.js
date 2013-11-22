@@ -41,9 +41,17 @@ function getData() {
 }
 
 function getPic(data) {
-    var regex   = /img src=\"([a-zA-Z0-9\_\.\/\:]*)\"/;
+    var newRegEx;
+    var regex = /img src=\"([a-zA-Z0-9\_\.\/\:]*)\"/;
     var match = data.match(regex);
-    var src = match ? match[1] : '';
+    var src = match ? match[1] : newRegEx = true;
+
+    if(newRegEx){
+        var re = new RegExp(/<img.*?src="(.*?)"/);
+        var me = data.match(re);
+        src = me ? me[1] : '';
+    }
+
     $('.fullscreen_bg').css('background-image', 'url(' + src + ')').css('background-image','no-repeat').css('background-image','center').css('background-image','center').css('background-image','fixed');
 }
 

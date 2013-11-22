@@ -14,87 +14,98 @@
         <script src="js/custom.js" type="text/javascript"></script>
     </head>
     <body>
-        <div id="fullscreen_bg" class="fullscreen_bg"/>
-        <a id="simple-menu" href="#sidr" type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="right" title="Pull Out Menu">
-            <span class="hidden-md hidden-lg">Swipe to toggle navigation</span>
-            <span class="visible-md visible-lg"><i class="fa fa-bars fa-lg"></i></span>
-        </a>
-        <div id="sidr">
-            <div id="sideMain">
-                <h1 class="appName"></h1>
-                <p id="bgImageName">
-                    Background Image: <br>
-                    <a id="headertext" class="btn btn-xs btn-link"></a>
-                </p>
-                <ul id="sideBarLinks"></ul>
-                <div id="sideBarControls">
-                    <div class="btn-group btn-group-xs btn-group-justified">
-                        <a type="button" class="btn btn-default" onclick="showWidget('clock')">
-                            <i class="fa fa-clock-o" data-toggle="tooltip" data-placement="top" title="Clock Widget"></i>
-                        </a>
-                        <a type="button" class="btn btn-default" onclick="showWidget('search')">
-                            <i class="fa fa-search" data-toggle="tooltip" data-placement="top" title="Search Widget"></i>
-                        </a>
-                        <a type="button" class="btn btn-default" onclick="showWidget('about')">
-                            <i class="fa fa-question" data-toggle="tooltip" data-placement="top" title="About this page"></i>
-                        </a>
-                        <a type="button" class="btn btn-default" onclick="showWidget()">
-                            <i class="fa fa-eye-slash" data-toggle="tooltip" data-placement="top" title="Toggle"></i>
-                        </a>
+        <div id="fullscreen_bg" class="fullscreen_bg">
+            <a id="simple-menu" href="#sidr" type="button" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="right" title="Pull Out Menu">
+                <span class="hidden-md hidden-lg">Swipe to toggle navigation</span>
+                <span class="visible-md visible-lg"><i class="fa fa-bars fa-lg"></i></span>
+            </a>
+            <div id="sidr">
+                <div id="sideMain">
+                    <h1 class="appName"></h1>
+                    <p id="bgImageName">
+                        Background Image: <br>
+                        <a id="headertext" class="btn btn-xs btn-link"></a>
+                    </p>
+                    <ul id="sideBarLinks"></ul>
+                    <div id="sideBarControls">
+                        <div class="btn-group btn-group-xs btn-group-justified">
+                            <a type="button" class="btn btn-default" onclick="showWidget('clock')">
+                                <i class="fa fa-clock-o" data-toggle="tooltip" data-placement="top" title="Clock Widget"></i>
+                            </a>
+                            <a type="button" class="btn btn-default" onclick="showWidget('search')">
+                                <i class="fa fa-search" data-toggle="tooltip" data-placement="top" title="Search Widget"></i>
+                            </a>
+                            <a type="button" class="btn btn-default" onclick="showWidget('about')">
+                                <i class="fa fa-question" data-toggle="tooltip" data-placement="top" title="About this page"></i>
+                            </a>
+                            <a type="button" class="btn btn-default" onclick="showWidget()">
+                                <i class="fa fa-eye-slash" data-toggle="tooltip" data-placement="top" title="Toggle"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div id="sideFooter">
-                <div class="btn-group btn-group-sm btn-group-justified">
-                    <a id="close-menu" href="#sidr" class="btn btn-info"><i class="fa fa-sign-out fa-flip-horizontal"></i> Close Menu</a>
+                <div id="sideFooter">
+                    <div class="btn-group btn-group-sm btn-group-justified">
+                        <a id="close-menu" href="#sidr" class="btn btn-info"><i class="fa fa-sign-out fa-flip-horizontal"></i> Close Menu</a>
+                    </div>
+                    <div class="btn-group btn-group-xs">
+                        <a href="https://github.com/fahadiqbal1/APODStartPage/issues" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="top" title="Issues">
+                            <i class="fa fa-bug"></i>
+                        </a>
+                        <a href="https://github.com/fahadiqbal1/APODStartPage/releases" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="top" title="Download">
+                            <i class="fa fa-download"></i>
+                        </a>
+                    </div>
+                    <p id="copyright" class="text-muted">
+                        <small>
+                            Images &#169; NASA <br>
+                            Website &#169; 2013 Fahad Iqbal. All rights reserved.
+                        </small>
+                    </p>
                 </div>
-                <div class="btn-group btn-group-xs">
-                    <a href="https://github.com/fahadiqbal1/APODStartPage/issues" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="top" title="Issues">
-                        <i class="fa fa-bug"></i>
-                    </a>
-                    <a href="https://github.com/fahadiqbal1/APODStartPage/releases" class="btn btn-default btn-xs" data-toggle="tooltip" data-placement="top" title="Download">
-                        <i class="fa fa-download"></i>
-                    </a>
-                </div>
-                <p id="copyright" class="text-muted">
-                    <small>
-                        Images &#169; NASA <br>
-                        Website &#169; 2013 Fahad Iqbal. All rights reserved.
-                    </small>
-                </p>
             </div>
-        </div>
 
-        <div id="widgetWindow" class="col-md-5 round">
-            <div id="clockWidget" class="widget">
-                <h1 id="clock"></h1>
-            </div>
-            <div id="searchWidget" class="widget">
-                <div id="searchImg">
-                    <img src="https://www.google.com/images/srpr/logo11w.png" height="60px">
+            <div id="widgetWindow" class="col-md-5 round">
+                <div id="clockWidget" class="widget">
+                    <h1 id="clock"></h1>
                 </div>
-                <div class="col-lg-offset-2">
-                    <form method="get" action="https://www.google.com/search">
-                        <div class="row">
-                            <div class="col-lg-10">
-                                <div class="input-group">
-                                    <input type="text" class="form-control" name="q" id="searchQuery">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-success" type="button" onclick="searchGoogle()">Go!</button>
-                                    </span>
+                <div id="searchWidget" class="widget">
+                    <div id="searchImg">
+                        <img src="https://www.google.com/images/srpr/logo11w.png" height="60px">
+                    </div>
+                    <div class="col-lg-offset-2">
+                        <form method="get" action="https://www.google.com/search">
+                            <div class="row">
+                                <div class="col-lg-10">
+                                    <div class="input-group">
+                                        <label for="searchQuery"></label>
+                                            <input type="text" class="form-control" name="q" id="searchQuery">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-success" type="button" onclick="searchGoogle()">Go!</button>
+                                        </span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </form>
+                        </form>
+                    </div>
+                </div>
+                <div id="aboutWidget" class="widget">
+                    <p id="about">
+                        <em>APOD Start Page</em> was created our of sheer boredom on a lazy weekend.
+                        What this page does, is that it grabs the latest picture from the <b><a href=\"http://apod.nasa.gov/apod/astropix.html\">NASA Astronomy Picture of the Day</a></b> site
+                        and sets that as the background. If you make this your homepage, you will be greeted with a new fantastic picture of the universe. <br>
+                        This page uses Javascript, <a href="http://jquery.com/">JQuery</a>, <a href="http://www.berriart.com/sidr/">Sidr</a>, & <a href="http://getbootstrap.com/">Bootstrap</a>.
+                    </p>
                 </div>
             </div>
-            <div id="aboutWidget" class="widget">
-                <p id="about">
-                    <em>APOD Start Page</em> was created our of sheer boredom on a lazy weekend.
-                    What this page does, is that it grabs the latest picture from the <b><a href=\"http://apod.nasa.gov/apod/astropix.html\">NASA Astronomy Picture of the Day</a></b> site
-                    and sets that as the background. If you make this your homepage, you will be greeted with a new fantastic picture of the universe. <br>
-                    This page uses Javascript, <a href="http://jquery.com/">JQuery</a>, <a href="http://www.berriart.com/sidr/">Sidr</a>, & <a href="http://getbootstrap.com/">Bootstrap</a>.
-                </p>
+
+            <div id="contextMenu" class="dropdown clearfix">
+                <ul class="dropdown-menu" style="display:block;position:static;margin-bottom:5px;">
+                    <li><a tabindex="-1" href="#" data-contextmenu="clock">Clock</a></li>
+                    <li><a tabindex="-1" href="#" data-contextmenu="search">Search</a></li>
+                    <li class="divider"></li>
+                    <li><a tabindex="-1" href="#" data-contextmenu="about">About This Page</a></li>
+                </ul>
             </div>
         </div>
     </body>
