@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="34c510b6-14d6-4bfc-b7cf-d2dd8f0ec391" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/custom.js" afterPath="$PROJECT_DIR$/js/custom.js" />
+    </list>
+    <ignored path="APODStartPage.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="APODStartPage" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Fahad" />
+      </list>
+    </option>
+    <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/touchwipe.js" />
+        <option value="$PROJECT_DIR$/test2.html" />
+        <option value="$PROJECT_DIR$/links.json" />
+        <option value="$PROJECT_DIR$/_config.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
+        <option value="$PROJECT_DIR$/dev.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/custom.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APODStartPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APODStartPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APODStartPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APODStartPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="APODStartPage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="appearance" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\fiqbal\Documents\GitHub\APODStartPage" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.dev.html">
+    <configuration default="false" name="dev.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/APODStartPage/dev.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dev.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dev.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34c510b6-14d6-4bfc-b7cf-d2dd8f0ec391" name="Default" comment="" />
+      <created>1384792514035</created>
+      <updated>1384792514035</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Testing CSS">
+      <created>1384792654707</created>
+      <updated>1384792654707</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Testing CSS">
+      <created>1384792689069</created>
+      <updated>1384792689069</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Testing CSS">
+      <created>1384792751587</created>
+      <updated>1384792751587</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Testing CSS">
+      <created>1384792812578</created>
+      <updated>1384792812578</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Testing CSS">
+      <created>1384792859498</created>
+      <updated>1384792859498</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Testing CSS">
+      <created>1384792999700</created>
+      <updated>1384792999700</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Testing CSS">
+      <created>1384793037486</created>
+      <updated>1384793037486</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Testing CSS">
+      <created>1384793062345</created>
+      <updated>1384793062345</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Testing CSS">
+      <created>1384793085313</created>
+      <updated>1384793085313</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Testing CSS">
+      <created>1384793156746</created>
+      <updated>1384793156746</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Testing CSS">
+      <created>1384793347400</created>
+      <updated>1384793347400</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Testing CSS">
+      <created>1384793380288</created>
+      <updated>1384793380288</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Testing CSS">
+      <created>1384793410724</created>
+      <updated>1384793410724</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Testing CSS">
+      <created>1384793610300</created>
+      <updated>1384793610300</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Testing CSS">
+      <created>1384793652741</created>
+      <updated>1384793652741</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Testing CSS">
+      <created>1384793670111</created>
+      <updated>1384793670111</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Testing CSS">
+      <created>1384794034160</created>
+      <updated>1384794034160</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Testing CSS">
+      <created>1384794590944</created>
+      <updated>1384794590944</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Testing CSS">
+      <created>1384794990480</created>
+      <updated>1384794990480</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Testing CSS">
+      <created>1384795172603</created>
+      <updated>1384795172603</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Testing CSS">
+      <created>1384795206734</created>
+      <updated>1384795206734</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Testing CSS">
+      <created>1384795230510</created>
+      <updated>1384795230510</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Testing CSS">
+      <created>1384795260212</created>
+      <updated>1384795260212</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Testing CSS">
+      <created>1384795326455</created>
+      <updated>1384795326455</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Testing CSS">
+      <created>1384795353769</created>
+      <updated>1384795353769</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Testing CSS">
+      <created>1384795581455</created>
+      <updated>1384795581455</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Testing CSS">
+      <created>1384795635546</created>
+      <updated>1384795635546</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Testing CSS">
+      <created>1384795674858</created>
+      <updated>1384795674858</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Testing CSS">
+      <created>1384795696961</created>
+      <updated>1384795696961</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Testing CSS">
+      <created>1384795724501</created>
+      <updated>1384795724501</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Testing CSS">
+      <created>1384795780223</created>
+      <updated>1384795780223</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Testing CSS">
+      <created>1384796768201</created>
+      <updated>1384796768201</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Testing CSS">
+      <created>1384809688725</created>
+      <updated>1384809688725</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Testing CSS">
+      <created>1384811932028</created>
+      <updated>1384811932028</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Adding features">
+      <created>1384870348365</created>
+      <updated>1384870348365</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Adding features">
+      <created>1384870423320</created>
+      <updated>1384870423320</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Adding features">
+      <created>1384876506891</created>
+      <updated>1384876506891</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Adding features">
+      <created>1384973815667</created>
+      <updated>1384973815667</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Testing touch">
+      <created>1384974383154</created>
+      <updated>1384974383154</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Testing touch">
+      <created>1384979716171</created>
+      <updated>1384979716171</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Testing touch">
+      <created>1384979956804</created>
+      <updated>1384979956804</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Testing touch">
+      <created>1384982349246</created>
+      <updated>1384982349246</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Testing touch">
+      <created>1384983288880</created>
+      <updated>1384983288880</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Adding favicon">
+      <created>1385042098863</created>
+      <updated>1385042098863</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Adding about section">
+      <created>1385054873017</created>
+      <updated>1385054873017</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Adding NASA link">
+      <created>1385057303246</created>
+      <updated>1385057303246</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Making clock 12 hours">
+      <created>1385064947589</created>
+      <updated>1385064947589</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Adding a space in the name of the background">
+      <created>1385067717681</created>
+      <updated>1385067717681</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Added issues and downloads buttons">
+      <created>1385068923077</created>
+      <updated>1385068923077</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Updated about page">
+      <created>1385069279507</created>
+      <updated>1385069279507</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Fixing Regex">
+      <created>1385134047290</created>
+      <updated>1385134047290</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Added context menu for widget window">
+      <created>1385144633161</created>
+      <updated>1385144633161</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Removing dev.html as it is no longer needed">
+      <created>1385145134733</created>
+      <updated>1385145134733</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Ability to close widgets from context menu">
+      <created>1385145780429</created>
+      <updated>1385145780429</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32780084" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24066924" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.126875" sideWeight="0.67741936" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39919356" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32392472" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32258064" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Testing CSS" />
+    <MESSAGE value="Adding features" />
+    <MESSAGE value="Testing touch" />
+    <MESSAGE value="Adding favicon" />
+    <MESSAGE value="Adding about section" />
+    <MESSAGE value="Adding NASA link" />
+    <MESSAGE value="Making clock 12 hours" />
+    <MESSAGE value="Adding a space in the name of the background" />
+    <MESSAGE value="Added issues and downloads buttons" />
+    <MESSAGE value="Updated about page" />
+    <MESSAGE value="Fixing Regex" />
+    <MESSAGE value="Added context menu for widget window" />
+    <MESSAGE value="Removing dev.html as it is no longer needed" />
+    <MESSAGE value="Ability to close widgets from context menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ability to close widgets from context menu" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="14" selection-start="2438" selection-end="2438" vertical-scroll-proportion="0.0" vertical-offset="1173" max-vertical-offset="2023" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="1" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="24" selection-start="1157" selection-end="1157" vertical-scroll-proportion="0.0" vertical-offset="321" max-vertical-offset="1054" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/touchwipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="20" selection-start="2477" selection-end="2477" vertical-scroll-proportion="0.5738162" vertical-offset="778" max-vertical-offset="1496" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="185" selection-end="353" vertical-scroll-proportion="0.1183844" vertical-offset="0" max-vertical-offset="718" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.43404254" vertical-offset="306" max-vertical-offset="149991" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="136" column="1" selection-start="2384" selection-end="2384" vertical-scroll-proportion="0.0" vertical-offset="1628" max-vertical-offset="2414" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="43" selection-start="6588" selection-end="6588" vertical-scroll-proportion="0.6745213" vertical-offset="1327" max-vertical-offset="2006" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/links.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="10" selection-start="605" selection-end="605" vertical-scroll-proportion="0.5895954" vertical-offset="0" max-vertical-offset="692" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="144" selection-end="144" vertical-scroll-proportion="0.098265894" vertical-offset="0" max-vertical-offset="692" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="36" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.5177305" vertical-offset="400" max-vertical-offset="2023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
