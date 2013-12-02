@@ -41,17 +41,9 @@ function getData() {
 }
 
 function getPic(data) {
-    var newRegEx;
-    var regex = /img src=\"([a-zA-Z0-9\_\.\/\:]*)\"/;
+    var regex   = /img src=\"([a-zA-Z0-9\_\.\/\:]*)\"/;
     var match = data.match(regex);
-    var src = match ? match[1] : newRegEx = true;
-
-    if(newRegEx){
-        var re = new RegExp(/<img.*?src="(.*?)"/);
-        var me = data.match(re);
-        src = me ? me[1] : '';
-    }
-
+    var src = match ? match[1] : '';
     $('.fullscreen_bg').css('background-image', 'url(' + src + ')').css('background-image','no-repeat').css('background-image','center').css('background-image','center').css('background-image','fixed');
 }
 
@@ -120,35 +112,3 @@ function searchGoogle() {
     var query = $('#searchQuery').val();
     document.location.href="https://www.google.com/search?q="+query;
 }
-
-/* --------------------- Context Menu --------------------- */
-
-$(function () {
-
-    var $contextMenu = $("#contextMenu");
-
-    $("body").on("contextmenu", "#widgetWindow", function (e) {
-        $contextMenu.css({
-            display: "block",
-            left: e.pageX,
-            top: e.pageY
-        });
-        return false;
-    });
-
-    $contextMenu.on("click", "a", function () {
-        var type = $(this).attr('CM-type');
-        var item = $(this).attr('CM-data');
-        if (type == 'toggle'){
-            showWidget();
-        } else {
-            showWidget(item);
-        }
-        $contextMenu.hide();
-    });
-
-    $(document).click(function () {
-        $contextMenu.hide();
-    });
-
-});
